@@ -31,7 +31,7 @@ int main(void){
         STRING *temp;   //temp object to wrap each command string
         DA *history = newDA(displaySTRING,freeSTRING); // holds each command entered into bash interpreter
     	while (should_run){   
-            printf("osh>");
+            printf("bashInt>>>");
             fflush(stdout);
             
             command = readLine(stdin);          //get command from stdin
